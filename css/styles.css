@@ -34,6 +34,10 @@ p {
     font-size: 16px;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 li {
     
@@ -93,7 +97,7 @@ nav {
 .navlinkanchor{
     margin:0 12px;
     color:black;
-    text-decoration: none;
+    
     font-weight: 700;
 }
 
@@ -165,7 +169,7 @@ nav {
 .about-me__link{
     font-size: 20px;
     color:#242424;
-    text-decoration: none;
+    
     padding: 0 16px;
     
 }
@@ -316,7 +320,7 @@ nav {
 .project__description--links{
     font-size: 20px;
     margin-right:16px;
-    text-decoration: none;
+    
 }
 
 
@@ -329,4 +333,47 @@ nav {
 
 }
 
+
+
+/*  Footer*/
+
+footer{
+    background-color:#242424;
+    
+   
+    
+}
+
+.footer_img{
+    margin-bottom:20px ;
+}
+
+.footer__social--list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:28px ;
+}
+
+.footer__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8%;
+}
+
+
+
+.footer__logo--img{
+    width:70px;
+    height: 70px;
+    
+    
+}
+
+.foot__social--link
+.footer__copyright{
+    color:#fff;
+}
 
